@@ -1,0 +1,12 @@
+logging:
+  level:
+    tech.brnasc: DEBUG
+
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers:
+        - localhost:9092
+    producer:
+      bootstrap-servers:
+        - localhost:9092
